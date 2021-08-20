@@ -11,7 +11,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-image: url(/images/pattern-background-desktop.svg);
+	background-image: url(Images/pattern-background-desktop.svg);
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
@@ -152,7 +152,7 @@ main button:hover {
 @media screen and (max-width: 500px) {
 
 	body {
-		background-image: url(/images/pattern-background-mobile.svg);
+		background-image: url(Images/pattern-background-mobile.svg);
 	}
 
 	main {
