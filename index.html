@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap" rel="stylesheet">
+        <title>RGB picker</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Pick color</h1>
+            <div class="slider">
+                <p>R</p>
+                <input type="range" min="0" max="255" name="Red" id="R">
+                <input type="number" min="0" max="255" name="Red-Number" id="R-number">
+            </div>
+            <div class="slider">
+                <p>G</p>
+                <input type="range" min="0" max="255" name="Green" id="G">
+                <input type="number" min="0" max="255" name="Green-Number" id="G-number">
+            </div>
+            <div class="slider">
+                <p>B</p>
+                <input type="range" min="0" max="255" name="Blue" id="B">
+                <input type="number" min="0" max="255" name="Blue-Number" id="B-number">
+            </div>
+            <div class="hex">
+                <p id="RGB_value"></p>
+                <svg viewBox="-40 0 512 512" class="copy" style="margin-bottom: 20px;" onclick="copy(0)">
+                    <path
+                        d="m271 512h-191c-44.113281 0-80-35.886719-80-80v-271c0-44.113281 35.886719-80 80-80h191c44.113281 0 80 35.886719 80 80v271c0 44.113281-35.886719 80-80 80zm-191-391c-22.054688 0-40 17.945312-40 40v271c0 22.054688 17.945312 40 40 40h191c22.054688 0 40-17.945312 40-40v-271c0-22.054688-17.945312-40-40-40zm351 261v-302c0-44.113281-35.886719-80-80-80h-222c-11.046875 0-20 8.953125-20 20s8.953125 20 20 20h222c22.054688 0 40 17.945312 40 40v302c0 11.046875 8.953125 20 20 20s20-8.953125 20-20zm0 0" />
+                </svg>
+            </div>
+            <div class="hex">
+                <p>Hex: &nbsp
+                    <input type="text" maxlength="0" name="Hex Value" id="Hex_value">
+                </p>
+                <svg viewBox="-40 0 512 512" class="copy" onclick="copy(1)">
+                    <path
+                        d="m271 512h-191c-44.113281 0-80-35.886719-80-80v-271c0-44.113281 35.886719-80 80-80h191c44.113281 0 80 35.886719 80 80v271c0 44.113281-35.886719 80-80 80zm-191-391c-22.054688 0-40 17.945312-40 40v271c0 22.054688 17.945312 40 40 40h191c22.054688 0 40-17.945312 40-40v-271c0-22.054688-17.945312-40-40-40zm351 261v-302c0-44.113281-35.886719-80-80-80h-222c-11.046875 0-20 8.953125-20 20s8.953125 20 20 20h222c22.054688 0 40 17.945312 40 40v302c0 11.046875 8.953125 20 20 20s20-8.953125 20-20zm0 0" />
+                </svg>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+
+</html>
