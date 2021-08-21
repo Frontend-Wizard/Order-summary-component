@@ -6,7 +6,7 @@ This is a solution to the Order summary card challenge on Frontend Mentor. Front
 
 ### Screenshot
 
-![Images/screenshot.jpg]
+![](Images/screenshot.jpg)
 
 ### Links
 
@@ -23,5 +23,5 @@ This is a solution to the Order summary card challenge on Frontend Mentor. Front
 
 ## Author
 
-- Website - [Ivan / Frontend-Wizard]
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - Ivan / Frontend-Wizard
+- Frontend Mentor - [@Frontend-Wizard](https://www.frontendmentor.io/profile/Frontend-Wizard)
