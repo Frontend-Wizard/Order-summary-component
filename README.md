@@ -13,8 +13,6 @@ This is a solution to the Order summary card challenge on Frontend Mentor. Front
 - [Solution URL] (https://github.com/Wizard4design/Order-summary-component)
 - [Live Site URL] (https://wizard4design.github.io/Order-summary-component)
 
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup
