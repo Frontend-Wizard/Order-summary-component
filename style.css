@@ -1,4 +1,5 @@
 * {
+	font-size: 28px;
 	margin: 0;
 	padding: 0;
 	font-family: "Red Hat Display", sans-serif;
@@ -6,12 +7,13 @@
 }
 
 body {
-	background-color: #e0e8ff;
 	height: 100vh;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-image: url(Images/pattern-background-desktop.svg);
+	background-color: #e0e8ff;
+	background-image: url(/images/pattern-background-desktop.svg);
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
@@ -32,34 +34,35 @@ main img {
 }
 
 main h1 {
-	margin-top: 35px;
+	margin-top: 51px;
 	font-weight: 700;
-	font-size: 28px;
+	font-size: 1rem;
+	line-height: .89rem;
 	color: #1a2751;
 }
 
 main p {
 	width: 321px;
+	margin-top: 11px;
 	font-weight: 500;
-	font-size: 16.1px;
-	line-height: 26px;
+	font-size: .575rem;
+	line-height: .92rem;
 	text-align: center;
 	color: #979eba;
-	margin-top: 11px;
 }
 
-main h4 {
+main h2 {
 	font-weight: 900;
-	font-size: 16.5px;
-	line-height: 26px;
+	font-size: .59rem;
+	line-height: .92rem;
 	letter-spacing: -0.01em;
 	color: #1a2751;
 }
 
 main a {
 	font-weight: 700;
-	font-size: 14.5px;
-	line-height: 25px;
+	font-size: .52rem;
+	line-height: .89rem;
 	letter-spacing: 0.001em;
 	text-decoration-line: underline;
 	color: #3829e0;
@@ -87,13 +90,12 @@ main a:hover {
 }
 
 .info img {
-	margin: 25px;
 	margin-right: 19px;
+	margin-left: 25px;
 }
 
 .column {
-	width: 94px;
-	height: 50px;
+	width: 3.36rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -101,29 +103,29 @@ main a:hover {
 }
 
 .column p,
-.column h4 {
+.column h2 {
 	margin: 0;
 	padding: 0;
 }
 
 .offer a {
-	margin-right: 24px;
+	margin-right: 6.7%;
 }
 
 main button {
-	margin-top: 32px;
+	margin-top: 7.2%;
 	width: 79%;
-	height: 50px;
+	height: 51px;
 	border: none;
 	background: #3829e0;
 	box-shadow: 0px 20px 30px #3829e055;
 	border-radius: 11px;
 
 	/*Text inside button*/
-	color: #fefaff;
 	font-weight: 500;
-	font-size: 16px;
-	line-height: 26px;
+	font-size: .57rem;
+	line-height: .93rem;
+	color: #fefaff;
 }
 
 main button:hover {
@@ -131,16 +133,23 @@ main button:hover {
 }
 
 .CancelOrder {
-	margin: 29px 0;
+	margin: 6.64% 0;
 
 	color: #626681;
 	font-weight: 700;
-	font-size: 15.5px;
-	line-height: 25px;
+	font-size: .55rem;
+	line-height: .89rem;
 }
 
 .CancelOrder:hover {
 	color: #262e52;
+}
+
+
+footer{
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 
 .attribution{
@@ -149,10 +158,14 @@ main button:hover {
 	color: #7e8397;
 }
 
+.attribution p, .attribution a{
+	font-size: .5rem;
+}
+
 @media screen and (max-width: 500px) {
 
 	body {
-		background-image: url(Images/pattern-background-mobile.svg);
+		background-image: url(/images/pattern-background-mobile.svg);
 	}
 
 	main {
@@ -160,39 +173,34 @@ main button:hover {
 	}
 
 	main h1 {
-		height: 37px;
-		font-size: 23px;
-		line-height: 25px;
+		height: 1.32rem;
+		font-size: .82rem;
+		line-height: .89rem;
 	}
 
 	main p {
-		width: 253px;
+		width: 9rem;
 		font-weight: 500;
-		font-size: 15.3px;
-		line-height: 25px;
+		font-size: .55rem;
 	}
 
 	.offer {
 		width: 85%;
-		height: 81px;
+		height: 12%;
 	}
 
-	.column {
-		height: 40px;
-	}
-
-	.offer h4 {
-		font-size: 14px;
-		line-height: 26px;
+	.offer h2 {
+		font-size: .5rem;
+		line-height: .92rem;
 	}
 
 	.offer p {
-		font-size: 14.5px;
+		font-size: .52rem;
 	}
 
 	.offer a {
-		font-size: 13.5px;
-		line-height: 25px;
-		margin-right: 15px;
+		font-size: .48rem;
+		line-height: .89rem;
+		margin-right: 4%;
 	}
 }
