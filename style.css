@@ -90,8 +90,8 @@ main a:hover {
 }
 
 .info img {
+	margin: 25px;
 	margin-right: 19px;
-	margin-left: 25px;
 }
 
 .column {
